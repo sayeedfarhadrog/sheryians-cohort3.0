@@ -1,0 +1,305 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* BODY */
+
+body{
+    background: #eeeeee;
+
+    font-family: Arial, sans-serif;
+
+    padding: 30px;
+}
+
+
+
+
+
+/* MAIN CONTAINER */
+
+.container{
+    width: 100%;
+
+    height: 940px;
+
+    border-radius: 35px;
+
+    overflow: hidden;
+
+    display: flex;
+
+    position: relative;
+
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+}
+
+
+
+
+
+/* LEFT SIDE */
+
+.left-side{
+    width: 62%;
+
+    background: #953cb9;
+
+    position: relative;
+}
+
+
+
+
+
+/* RIGHT SIDE */
+
+.right-side{
+    width: 38%;
+
+    background: #f5e8c8;
+
+    position: relative;
+}
+
+
+
+
+
+/* LOGO */
+.logo{
+    position: absolute;
+
+    top: 35px;
+    left: 40px;
+}
+
+.logo img{
+    width: 280px;
+}
+
+
+
+
+/* CONTENT */
+
+.content{
+    position: absolute;
+
+    top: 260px;
+    left: 80px;
+}
+
+.content h3{
+    font-size: 28px;
+
+    letter-spacing: 12px;
+
+    margin-bottom: 35px;
+}
+
+.content h1{
+    font-size: 170px;
+
+    font-weight: bold;
+
+    margin-bottom: 40px;
+}
+
+.content p{
+    width: 620px;
+
+    font-size: 28px;
+
+    line-height: 1.8;
+
+    color: #222;
+}
+
+
+
+
+
+/* NUMBER SECTION */
+
+.number{
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    margin-top: 70px;
+}
+
+.line{
+    width: 70px;
+    height: 4px;
+
+    background: black;
+}
+
+.number span{
+    font-size: 40px;
+
+    font-weight: bold;
+}
+
+
+
+
+
+/* MENU */
+
+.menu{
+    position: absolute;
+
+    top: 60px;
+    left: -180px;
+
+    display: flex;
+
+    gap: 45px;
+}
+
+.menu a{
+    text-decoration: none;
+
+    color: black;
+
+    font-size: 26px;
+}
+
+.menu a:hover{
+    color: #b06dc7;
+}
+
+
+
+
+
+/* MENU ICON */
+
+.menu-icon{
+    position: absolute;
+
+    top: 55px;
+    right: 60px;
+}
+
+.menu-icon span{
+    display: block;
+
+    width: 55px;
+    height: 5px;
+
+    background: black;
+
+    margin-bottom: 12px;
+
+    border-radius: 10px;
+}
+
+
+
+
+
+/* DOTS */
+
+.dots{
+    position: absolute;
+
+    right: 50px;
+    top: 420px;
+}
+
+.dots div{
+    width: 18px;
+    height: 18px;
+
+    background: #f8c700;
+
+    border-radius: 50%;
+
+    margin-bottom: 28px;
+}
+
+.dots .black{
+    background: black;
+}
+
+
+
+
+
+/* POKEMON IMAGE */
+
+.pokemon-image{
+    position: absolute;
+
+    top: 120px;
+    left: 630px;
+}
+
+.pokemon-image img{
+    width: 950px;
+}
+
+
+
+
+
+/* POKEBALL */
+
+.circle{
+    width: 380px;
+    height: 380px;
+
+    border: 25px solid rgba(0,0,0,0.08);
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    left: 40px;
+    bottom: -120px;
+}
+
+.circle::before{
+    content: "";
+
+    width: 380px;
+    height: 25px;
+
+    background: rgba(0,0,0,0.08);
+
+    position: absolute;
+
+    top: 170px;
+    left: -25px;
+}
+
+.circle::after{
+    content: "";
+
+    width: 90px;
+    height: 90px;
+
+    border: 25px solid rgba(0,0,0,0.08);
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    top: 115px;
+    left: 115px;
+}
